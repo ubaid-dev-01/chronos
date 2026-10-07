@@ -1,0 +1,31 @@
+{
+  "name": "chronos",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "clean": "turbo clean",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "seed:superadmin": "pnpm --filter @chronos/db seed:superadmin"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.0",
+    "turbo": "^2.4.0",
+    "typescript": "^5.6.0",
+    "vitest": "^3.2.7"
+  },
+  "packageManager": "pnpm@10.20.0",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp",
+      "unrs-resolver"
+    ]
+  }
+}

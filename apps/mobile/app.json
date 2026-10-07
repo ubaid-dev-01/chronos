@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Chronos",
+    "slug": "chronos-mobile",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "chronos",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0A0A0F"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.chronos.mobile"
+    },
+    "android": {
+      "package": "app.chronos.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0A0F"
+      }
+    },
+    "extra": {
+      "apiUrl": "http://localhost:4000/v1"
+    }
+  }
+}

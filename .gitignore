@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+.next/
+.turbo/
+out/
+
+# Environment
+!.env.example
+!.env.*.example
+.env.*.local
+
+# Local screenshot storage (no-S3 mode)
+apps/api/uploads/
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+
+# Tauri (desktop agent)
+src-tauri/target/
+apps/desktop/src-tauri/target/
+
+# Misc
+*.tsbuildinfo
+config.bat
+
+# secrets and local tooling
+.env
+.env.*
+!.env.example
+*.pem
+*service-account*.json
+*-firebase-adminsdk-*.json
+.auth-keys.json
+.vercel
+node_modules/
+dist/
+.next/
+config.bat
+temp_auto_push.bat
+temp_interactive_push.bat
