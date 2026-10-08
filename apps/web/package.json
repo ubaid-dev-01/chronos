@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS=--dns-result-order=ipv4first next dev --port 3000",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && cross-env NODE_OPTIONS=--dns-result-order=ipv4first next dev --port 3000",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "eslint"
   },
   "dependencies": {
