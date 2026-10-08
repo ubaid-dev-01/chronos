@@ -43,8 +43,6 @@ apps/desktop/src-tauri/target/
 config.bat
 
 # secrets and local tooling
-.env
-.env.*
 !.env.example
 *.pem
 *service-account*.json
